@@ -1,0 +1,8 @@
+{
+  "name": "ONBOARDING REPORT",
+  "description": "Enterprise milestone tracker and customer onboarding dashboard with auto-calculations and weightage-based completion tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

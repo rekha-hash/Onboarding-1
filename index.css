@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #f8f9ff;
+  color: #0d1c2d;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+/* Custom styles for tables and metrics mapping to custom images */
+.rag-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #eef4ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+/* Material symbols alternatives or fallback colors */
+.rag-green { background-color: #f0fdf4; color: #15803d; border-color: #bbf7d0; }
+.rag-amber { background-color: #fffbeb; color: #b45309; border-color: #fde68a; }
+.rag-red { background-color: #fef2f2; color: #b91c1c; border-color: #fecaca; }
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+}
